@@ -2,8 +2,8 @@
 Changelog for package rqt_shell
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.4.9 (2017-09-07)
+------------------
 * Fixed syntax error when using a startup script with spyder shell
 
 0.4.8 (2017-04-28)
