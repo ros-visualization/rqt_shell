@@ -31,17 +31,19 @@
 # POSSIBILITY OF SUCH DAMAGE.
 
 import os
-import rospkg
 
 from python_qt_binding import loadUi
 from python_qt_binding.QtWidgets import QWidget
+from qt_gui.ros_package_helper import get_package_path
 from rqt_shell.shell_text_edit import ShellTextEdit
 
 
 class ShellWidget(QWidget):
     def __init__(self, parent=None, script_path=None):
         super(ShellWidget, self).__init__(parent=parent)
-        rp = rospkg.RosPack()
-        ui_file = os.path.join(rp.get_path('rqt_shell'), 'resource', 'shell_widget.ui')
+        package_path = get_package_path('rqt_shell')
+        ui_file = os.path.join(package_path, 'share', 'rqt_shell', 'resource', 'shell_widget.ui')
+        if not os.path.exists(ui_file):
+            raise Exception('ShellWidget UI File was not found at {}'.format(ui_file))
         loadUi(ui_file, self, {'ShellTextEdit': ShellTextEdit})
         self.setObjectName('ShellWidget')
