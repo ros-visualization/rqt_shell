@@ -17,7 +17,7 @@ install(DIRECTORY resource
 )
 
 install(PROGRAMS scripts/rqt_shell
-  DESTINATION bin
+  DESTINATION lib/${PROJECT_NAME}
 )
 
 ament_package()
