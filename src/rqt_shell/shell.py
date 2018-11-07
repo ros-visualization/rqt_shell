@@ -64,7 +64,8 @@ class Shell(Plugin):
         {
             'title': 'XTerm',
             'widget_class': XTermWidget,
-            'description': 'Fully functional embedded XTerm (needs xterm, only works on X11 with Qt 4).',
+            'description':
+                'Fully functional embedded XTerm (needs xterm, only works on X11 with Qt 4).',
             'enabled': _has_xterm,
         },
         {
@@ -117,7 +118,8 @@ class Shell(Plugin):
         self._widget = selected_shell['widget_class'](script_path=self._args.init_script)
         self._widget.setWindowTitle(selected_shell['title'])
         if self._context.serial_number() > 1:
-            self._widget.setWindowTitle(self._widget.windowTitle() + (' (%d)' % self._context.serial_number()))
+            self._widget.setWindowTitle(self._widget.windowTitle() + (' (%d)' %
+                                        self._context.serial_number()))
         self._context.add_widget(self._widget)
         if hasattr(self._widget, 'close_signal'):
             self._widget.close_signal.connect(self._context.close_plugin)
@@ -131,7 +133,8 @@ class Shell(Plugin):
 
     def trigger_configuration(self):
         dialog = SimpleSettingsDialog(title='Shell Options')
-        dialog.add_exclusive_option_group(title='Shell Type', options=self.shell_types, selected_index=self._shell_type_index)
+        dialog.add_exclusive_option_group(title='Shell Type', options=self.shell_types,
+                                          selected_index=self._shell_type_index)
         shell_type = dialog.get_settings()[0]
         if shell_type is not None and self._shell_type_index != shell_type['selected_index']:
             self._shell_type_index = shell_type['selected_index']
@@ -140,4 +143,3 @@ class Shell(Plugin):
     def shutdown_plugin(self):
         if self._widget is not None and hasattr(self._widget, 'shutdown'):
             self._widget.shutdown()
-
