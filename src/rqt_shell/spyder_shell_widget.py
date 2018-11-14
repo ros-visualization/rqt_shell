@@ -33,8 +33,8 @@
 from python_qt_binding.QtGui import QFont, QIcon
 from python_qt_binding.QtCore import QProcess, SIGNAL, QTextCodec, Signal
 
-from spyderlib.widgets.externalshell.baseshell import ExternalShellBase
-from spyderlib.widgets.shell import TerminalWidget
+from spyder.widgets.externalshell.baseshell import ExternalShellBase
+from spyder.widgets.shell import TerminalWidget
 
 import os
 
