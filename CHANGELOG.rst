@@ -2,6 +2,12 @@
 Changelog for package rqt_shell
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Fixing executable (`#8 <https://github.com/ros-visualization/rqt_shell/issues/8>`_)
+* Initial port, SimpleShell works (`#7 <https://github.com/ros-visualization/rqt_shell/issues/7>`_)
+* Contributors: Mike Lautman, brawner
+
 0.4.9 (2017-09-07)
 ------------------
 * Fixed syntax error when using a startup script with spyder shell
