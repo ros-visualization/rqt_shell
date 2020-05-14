@@ -28,7 +28,7 @@ setup(
         'Topic :: Software Development',
     ],
     description=(
-        'RQT plugin for monitoring ROS processes.'
+        'rqt_shell is a Python GUI plugin providing an interactive shell.'
     ),
     license='BSD',
     entry_points={
