@@ -2,8 +2,8 @@
 Changelog for package rqt_shell
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.4.11 (2021-04-21)
+-------------------
 * Merge pull request `#13 <https://github.com/ros-visualization/rqt_shell/issues/13>`_ from ros-visualization/sloretz-update-maintainer
   Update maintainer in package.xml
 * Update maintainer in package.xml
