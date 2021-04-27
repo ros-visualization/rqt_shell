@@ -2,6 +2,11 @@
 Changelog for package rqt_shell
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Changed the build type to ament_python and fixed package to run with ros2 run (`#11 <https://github.com/ros-visualization/rqt_shell/issues/11>`_)
+* Contributors: Alejandro Hernández Cordero
+
 1.0.0 (2018-12-11)
 ------------------
 * Fixing executable (`#8 <https://github.com/ros-visualization/rqt_shell/issues/8>`_)
