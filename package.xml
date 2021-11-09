@@ -12,6 +12,7 @@
 
   <author>Dorian Scholz</author>
   <author>Kunal Tyagi</author>
+  <author email="michael@openrobotics.org">Michael Carroll</author>
 
   <buildtool_depend>catkin</buildtool_depend>
 
