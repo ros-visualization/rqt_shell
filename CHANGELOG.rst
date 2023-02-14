@@ -2,6 +2,11 @@
 Changelog for package rqt_shell
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* [rolling] Update maintainers - 2022-11-07 (`#17 <https://github.com/ros-visualization/rqt_shell/issues/17>`_)
+* Contributors: Audrow Nash, Jacob Perron
+
 1.1.0 (2022-05-10)
 ------------------
 
