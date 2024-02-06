@@ -31,6 +31,7 @@ setup(
         'rqt_shell is a Python GUI plugin providing an interactive shell.'
     ),
     license='BSD',
+    tests_require=['pytest'],
     entry_points={
         'console_scripts': [
             'rqt_shell = ' + package_name + '.main:main',
