@@ -2,8 +2,8 @@
 Changelog for package rqt_shell
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.2.1 (2024-02-07)
+------------------
 * Add in pytest test dependency. (`#19 <https://github.com/ros-visualization/rqt_shell/issues/19>`_)
 * Contributors: Chris Lalancette
 
