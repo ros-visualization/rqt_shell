@@ -2,6 +2,11 @@
 Changelog for package rqt_shell
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Change maintainer to clalancette. (`#21 <https://github.com/ros-visualization/rqt_shell/issues/21>`_)
+* Contributors: Chris Lalancette, Michael Jeronimo
+
 1.2.1 (2024-02-07)
 ------------------
 * Add in pytest test dependency. (`#19 <https://github.com/ros-visualization/rqt_shell/issues/19>`_)
