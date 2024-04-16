@@ -2,6 +2,12 @@
 Changelog for package rqt_shell
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.4.12 (2024-04-16)
+-------------------
+* Import setup from setuptools instead of distutils.core (`#18 <https://github.com/ros-visualization/rqt_shell/issues/18>`_)
+  Co-authored-by: Matthijs van der Burgh <MatthijsBurgh@outlook.com>
+* Contributors: Arne Hitzmann
+
 0.4.11 (2021-04-21)
 -------------------
 * Merge pull request `#13 <https://github.com/ros-visualization/rqt_shell/issues/13>`_ from ros-visualization/sloretz-update-maintainer
