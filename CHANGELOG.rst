@@ -2,6 +2,11 @@
 Changelog for package rqt_shell
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Bump cmake_minimum_required to avoid deprecation (`#25 <https://github.com/ros-visualization/rqt_shell/issues/25>`_)
+* Contributors: Arne Hitzmann
+
 0.4.12 (2024-04-16)
 -------------------
 * Import setup from setuptools instead of distutils.core (`#18 <https://github.com/ros-visualization/rqt_shell/issues/18>`_)
