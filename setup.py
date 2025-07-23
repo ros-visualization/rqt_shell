@@ -23,7 +23,6 @@ setup(
     keywords=['ROS'],
     classifiers=[
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: BSD License',
         'Programming Language :: Python',
         'Topic :: Software Development',
     ],
@@ -31,6 +30,14 @@ setup(
         'rqt_shell is a Python GUI plugin providing an interactive shell.'
     ),
     license='BSD',
+<<<<<<< HEAD
+=======
+    extras_require={
+        'test' : [
+            'pytest',
+        ],
+    },
+>>>>>>> 2352808 (Fix setuptools deprecation (#26))
     entry_points={
         'console_scripts': [
             'rqt_shell = ' + package_name + '.main:main',
