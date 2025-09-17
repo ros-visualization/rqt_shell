@@ -31,7 +31,7 @@ setup(
     ),
     license='BSD',
     extras_require={
-        'test' : [
+        'test': [
             'pytest',
         ],
     },
