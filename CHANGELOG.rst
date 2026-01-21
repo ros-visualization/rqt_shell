@@ -2,8 +2,8 @@
 Changelog for package rqt_shell
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.2.3 (2026-01-21)
+------------------
 * Fix setuptools deprecation (backport `#26 <https://github.com/ros-visualization/rqt_shell/issues/26>`_) (`#28 <https://github.com/ros-visualization/rqt_shell/issues/28>`_)
   Fix setuptools deprecation (`#26 <https://github.com/ros-visualization/rqt_shell/issues/26>`_)
   (cherry picked from commit 23528082dc9fff90587fbfd28ef71737ad97f035)
