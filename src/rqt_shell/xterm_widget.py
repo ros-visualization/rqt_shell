@@ -32,6 +32,7 @@ import os
 
 from python_qt_binding.QtCore import QProcess, QTimer, qWarning, Signal
 from python_qt_binding.QtGui import QX11EmbedContainer
+from python_qt_binding.QtWidgets import QApplication
 
 
 class XTermWidget(QX11EmbedContainer):
@@ -66,7 +67,6 @@ def is_xterm_available():
 
 
 if __name__ == '__main__':
-    from PyQt4.QtGui import QApplication
     app = QApplication([])
     xt = XTermWidget()
     app.exec()
