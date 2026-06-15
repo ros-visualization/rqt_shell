@@ -80,11 +80,7 @@ class SpyderShellWidget(ExternalShellBase):
 
         env = []
         for key_val_pair in self.process.systemEnvironment():
-            try:
-                value = unicode(key_val_pair)
-            except NameError:
-                value = str(key_val_pair)
-            env.append(value)
+            env.append(str(key_val_pair))
         env.append('TERM=xterm')
         env.append('COLORTERM=gnome-terminal')
         self.process.setEnvironment(env)
@@ -125,10 +121,7 @@ class SpyderShellWidget(ExternalShellBase):
 
     def send_to_process(self, text):
         if not is_string(text):
-            try:
-                text = unicode(text)
-            except NameError:
-                text = str(text)
+            text = str(text)
         if not text.endswith('\n'):
             text += '\n'
         self.process.write(QTextCodec.codecForLocale().fromUnicode(text))
