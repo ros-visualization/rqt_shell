@@ -76,7 +76,7 @@ class SpyderShellWidget(ExternalShellBase):
         self.shell.clear()
 
         self.process = QProcess(self)
-        self.process.setProcessChannelMode(QProcess.MergedChannels)
+        self.process.setProcessChannelMode(QProcess.ProcessChannelMode.MergedChannels)
 
         env = []
         for key_val_pair in self.process.systemEnvironment():
